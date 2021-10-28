@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import {App} from './App';
 import reportWebVitals from './reportWebVitals';
-
+import {Ineterface}  from './InterfaceType'
+import {Interface1} from './Interface1'
+import {Interface2}  from './Interface2'
+import {InetrfaceImplement} from './InterfaceImplement'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Interface2/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
